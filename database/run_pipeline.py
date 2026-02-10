@@ -3,9 +3,9 @@ import sys
 
 
 STEPS = [
-    ("Mirror CERT-FR", "python scraper.py"),
-    ("Build CVE list", "python CVE_counter.py"),
-    ("Build first-seen intel", "python build_first_seen.py"),
+    ("Mirror CERT-FR", "python database/scraper.py"),
+    ("Build CVE list", "python database/CVE_counter.py"),
+    ("Build first-seen intel", "python database/build_first_seen.py"),
 ]
 
 
