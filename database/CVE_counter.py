@@ -40,10 +40,19 @@ def load_existing():
 
 def main():
     all_cves = set()
-    total_files = 0
 
-    for file in ROOT.rglob("*.json"):
-        total_files += 1
+    files = list(ROOT.rglob("*.json"))
+    total_files = len(files)
+
+    if total_files == 0:
+        print("No files found.")
+        return 0
+
+    for idx, file in enumerate(files, start=1):
+        advisory_id = file.stem
+        percent = int((idx / total_files) * 100)
+
+        print(f"[{percent:3d}%] {advisory_id}")
 
         try:
             data = json.loads(file.read_text(encoding="utf-8"))
@@ -60,7 +69,7 @@ def main():
     old = load_existing()
 
     if stable_hash(old) == stable_hash(sorted_cves):
-        print("No change in CVE list.")
+        print("\nNo change in CVE list.")
         print("unique CVEs:", len(sorted_cves))
         return 0
 

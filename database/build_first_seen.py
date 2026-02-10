@@ -24,8 +24,18 @@ def extract_date(obj):
 def main():
     first_seen = {}
 
-    for file in sorted(ROOT.rglob("*.json")):
+    files = sorted(ROOT.rglob("*.json"))
+    total = len(files)
+
+    if total == 0:
+        print("No files found.")
+        return
+
+    for idx, file in enumerate(files, start=1):
         advisory_id = file.stem
+
+        percent = int((idx / total) * 100)
+        print(f"[{percent:3d}%] {advisory_id}")
 
         try:
             data = json.loads(file.read_text(encoding="utf-8"))
@@ -49,8 +59,10 @@ def main():
         encoding="utf-8"
     )
 
-    print("CVE tracked:", len(first_seen))
-    print("output:", OUTPUT.resolve())
+    print("\n========== DONE ==========")
+    print("files scanned:", total)
+    print("CVE tracked :", len(first_seen))
+    print("output      :", OUTPUT.resolve())
 
 
 if __name__ == "__main__":
