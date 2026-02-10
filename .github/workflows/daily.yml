@@ -1,4 +1,4 @@
-name: Daily CERT-FR Intelligence Update
+﻿name: Daily CERT-FR Intelligence Update
 
 on:
   schedule:
@@ -22,7 +22,7 @@ jobs:
       - run: pip install requests
 
       - name: Run pipeline
-        run: python database/run_pipeline.py
+        run: python database/scripts/run_pipeline.py
 
       - name: Commit changes
         run: |
@@ -31,3 +31,4 @@ jobs:
           git add .
           git diff --cached --quiet || git commit -m "Daily intelligence update"
           git push
+

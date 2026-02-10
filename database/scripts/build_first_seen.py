@@ -5,8 +5,8 @@ import re
 from pathlib import Path
 
 
-ROOT = Path("certfr_dump")
-OUTPUT = Path("certfr_cve_first_seen.json")
+ROOT = Path("database/raw/certfr_dump_root")
+OUTPUT = Path("database/intel/certfr_cve_first_seen.json")
 
 CVE_REGEX = re.compile(r"(?i)\bCVE-\d{4}-\d{4,7}\b")
 

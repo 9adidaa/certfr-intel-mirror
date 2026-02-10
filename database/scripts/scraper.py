@@ -28,7 +28,7 @@ MAX_CONSECUTIVE_MISSES = 50
 # automation friendly
 START_YEAR = int(os.getenv("START_YEAR", "2000"))
 
-BASE_DIR = Path("certfr_dump")
+BASE_DIR = Path("database/raw/certfr_dump_root")
 LOG_DIR = Path("logs")
 TODAY = datetime.date.today().isoformat()
 LOG_FILE = LOG_DIR / f"{TODAY}.txt"

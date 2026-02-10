@@ -10,8 +10,8 @@ from pathlib import Path
 # CONFIG
 # ==========================================================
 
-ROOT = Path("certfr_dump")
-OUTPUT_FILE = Path("certfr_unique_cves.json")
+ROOT = Path("database/raw/certfr_dump_root")
+OUTPUT_FILE = Path("database/intel/certfr_unique_cves.json")
 
 CVE_REGEX = re.compile(r"(?i)\bCVE-\d{4}-\d{4,7}\b")
 

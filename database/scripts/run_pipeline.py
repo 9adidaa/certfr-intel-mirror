@@ -1,11 +1,9 @@
-import subprocess
+﻿import subprocess
 import sys
 
 
 STEPS = [
-    ("Mirror CERT-FR", "python database/scraper.py"),
-    ("Build CVE list", "python database/CVE_counter.py"),
-    ("Build first-seen intel", "python database/build_first_seen.py"),
+    ("Build first-seen intel", "python database/scripts/build_first_seen.py"),
 ]
 
 
@@ -23,3 +21,4 @@ def run():
 
 if __name__ == "__main__":
     sys.exit(run())
+
