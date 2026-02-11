@@ -19,11 +19,23 @@ jobs:
         with:
           python-version: "3.11"
 
-      - run: pip install requests
+      - run: pip install requests pytest
 
+      # ---------------------------------
+      # Run data pipeline
+      # ---------------------------------
       - name: Run pipeline
         run: python database/scripts/run_pipeline.py
 
+      # ---------------------------------
+      # Validate + update README
+      # ---------------------------------
+      - name: Run tests
+        run: pytest -v
+
+      # ---------------------------------
+      # Commit if something changed
+      # ---------------------------------
       - name: Commit changes
         run: |
           git config user.name "cert-bot"
@@ -31,4 +43,3 @@ jobs:
           git add .
           git diff --cached --quiet || git commit -m "Daily intelligence update"
           git push
-
