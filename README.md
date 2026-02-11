@@ -23,3 +23,20 @@ Cette documentation a pour objectif de fournir une référence technique sur les
 3. [Structure des données et Parsing](./03-data-structure-parsing.md)
 4. [Accès aux données (RSS & CSAF)](./04-data-access.md)
 5. [Cycle de vie et Mises à jour](./05-lifecycle.md)
+
+---
+
+<!-- STATUS:START -->
+Last validation: 2026-02-11 11:33 UTC
+
+| Check | Status |
+|------|--------|
+| Raw data present | ✅ |
+| CVE index valid | ✅ |
+| First-seen valid | ✅ |
+
+### Dataset size
+- Advisories: **16483**
+- Unique CVEs: **78977**
+
+<!-- STATUS:END -->
