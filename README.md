@@ -27,7 +27,7 @@ Cette documentation a pour objectif de fournir une référence technique sur les
 ---
 
 <!-- STATUS:START -->
-Last validation: 2026-02-11 11:33 UTC
+Last validation: 2026-02-11 11:40 UTC
 
 | Check | Status |
 |------|--------|
@@ -36,7 +36,7 @@ Last validation: 2026-02-11 11:33 UTC
 | First-seen valid | ✅ |
 
 ### Dataset size
-- Advisories: **16483**
-- Unique CVEs: **78977**
+- Advisories: **16478**
+- Unique CVEs: **78942**
 
 <!-- STATUS:END -->
