@@ -27,13 +27,15 @@ Cette documentation a pour objectif de fournir une référence technique sur les
 ---
 
 <!-- STATUS:START -->
-Last validation: 2026-02-11 11:40 UTC
+Last CI success: 2026-02-11 11:51 UTC
 
+### Validation
 | Check | Status |
 |------|--------|
 | Raw data present | ✅ |
 | CVE index valid | ✅ |
 | First-seen valid | ✅ |
+| Tests executed | **11 passed** |
 
 ### Dataset size
 - Advisories: **16478**
