@@ -27,7 +27,7 @@ Cette documentation a pour objectif de fournir une référence technique sur les
 ---
 
 <!-- STATUS:START -->
-Last CI success: 2026-02-15 23:29 UTC
+Last CI success: 2026-02-16 23:31 UTC
 
 ### Validation
 | Check | Status |
