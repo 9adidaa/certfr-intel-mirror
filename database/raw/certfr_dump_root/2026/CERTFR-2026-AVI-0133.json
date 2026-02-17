@@ -24,13 +24,22 @@
   ],
   "affected_systems_content": "",
   "content": "## Solutions\n\nSe référer au bulletin de sécurité de l'éditeur pour l'obtention des correctifs (cf. section Documentation).",
-  "cves": [],
+  "cves": [
+    {
+      "name": "CVE-2026-25916",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-25916"
+    }
+  ],
   "links": [],
   "reference": "CERTFR-2026-AVI-0133",
   "revisions": [
     {
       "description": "Version initiale",
       "revision_date": "2026-02-09T00:00:00.000000"
+    },
+    {
+      "description": " Ajout Référence CVE CVE-2026-25916",
+      "revision_date": "2026-02-10T00:00:00.000000"
     }
   ],
   "risks": [
