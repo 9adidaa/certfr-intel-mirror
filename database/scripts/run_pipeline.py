@@ -3,6 +3,8 @@ import sys
 
 
 STEPS = [
+    ("Mirror CERT-FR", "python database/scripts/scraper.py"),
+    ("Build CVE list", "python database/scripts/CVE_counter.py"),
     ("Build first-seen intel", "python database/scripts/build_first_seen.py"),
 ]
 
