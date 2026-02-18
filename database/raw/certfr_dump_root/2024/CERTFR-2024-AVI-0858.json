@@ -32,6 +32,10 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2024-47912"
     },
     {
+      "name": "CVE-2024-55550",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2024-55550"
+    },
+    {
       "name": "CVE-2024-41713",
       "url": "https://www.cve.org/CVERecord?id=CVE-2024-41713"
     }
@@ -42,6 +46,10 @@
     {
       "description": "Version initiale",
       "revision_date": "2024-10-10T00:00:00.000000"
+    },
+    {
+      "description": "Ajout de l'identifiant CVE-2024-55550.",
+      "revision_date": "2026-02-17T00:00:00.000000"
     }
   ],
   "risks": [
