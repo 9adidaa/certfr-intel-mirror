@@ -20,10 +20,6 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2023-6918"
     },
     {
-      "name": "CVE-2021-46743",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2021-46743"
-    },
-    {
       "name": "CVE-2025-12818",
       "url": "https://www.cve.org/CVERecord?id=CVE-2025-12818"
     },
@@ -42,6 +38,10 @@
     {
       "description": "Version initiale",
       "revision_date": "2026-02-19T00:00:00.000000"
+    },
+    {
+      "description": "Retrait de l'identifiant CVE-2021-46743 suite à la mise à jour de l'avis éditeur",
+      "revision_date": "2026-02-23T00:00:00.000000"
     }
   ],
   "risks": [
