@@ -14,13 +14,26 @@
   ],
   "affected_systems_content": "L'éditeur rappelle que la version 4.3 n'est plus supportée depuis fin décembre 2025.",
   "content": "## Solutions\n\nSe référer au bulletin de sécurité de l'éditeur pour l'obtention des correctifs (cf. section Documentation).",
-  "cves": [],
+  "cves": [
+    {
+      "name": "CVE-2026-26345",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-26345"
+    },
+    {
+      "name": "CVE-2026-26223",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-26223"
+    }
+  ],
   "links": [],
   "reference": "CERTFR-2026-AVI-0155",
   "revisions": [
     {
       "description": "Version initiale",
       "revision_date": "2026-02-12T00:00:00.000000"
+    },
+    {
+      "description": "Ajout des identifiants CVE",
+      "revision_date": "2026-02-25T00:00:00.000000"
     }
   ],
   "risks": [
