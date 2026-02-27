@@ -84,7 +84,7 @@
     {
       "description": "les commutateurs Nexus séries 3000 et 9000, se référer au bulletin de sécurité de l'éditeur pour les systèmes affectés (cf. section Documentation)",
       "product": {
-        "name": "commutateurs Nexus",
+        "name": "Commutateurs Nexus",
         "vendor": {
           "name": "Cisco",
           "scada": false
