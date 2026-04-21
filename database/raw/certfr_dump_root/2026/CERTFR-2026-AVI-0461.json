@@ -2,9 +2,19 @@
   "$ref": "https://www.cert.ssi.gouv.fr/openapi.json",
   "affected_systems": [
     {
+      "description": "Kafka Clients versions antérieures à 3.9.2",
+      "product": {
+        "name": "Kafka Clients",
+        "vendor": {
+          "name": "Apache",
+          "scada": false
+        }
+      }
+    },
+    {
       "description": "Kafka Clients versions 4.1.x antérieures à 4.1.2",
       "product": {
-        "name": "Kafka",
+        "name": "Kafka Clients",
         "vendor": {
           "name": "Apache",
           "scada": false
@@ -12,7 +22,7 @@
       }
     },
     {
-      "description": "Kafka Clients versions 4.0.x antérieures à 4.0.2",
+      "description": "Kafka versions 4.1.x antérieures à 4.1.2",
       "product": {
         "name": "Kafka",
         "vendor": {
@@ -22,9 +32,9 @@
       }
     },
     {
-      "description": "Kafka Clients versions 2.8.x à 3.9.x antérieures à 3.9.2",
+      "description": "Kafka Clients versions 4.0.x antérieures à 4.0.1",
       "product": {
-        "name": "Kafka",
+        "name": "Kafka Clients",
         "vendor": {
           "name": "Apache",
           "scada": false
@@ -36,28 +46,32 @@
   "content": "## Solutions\n\nSe référer au bulletin de sécurité de l'éditeur pour l'obtention des correctifs (cf. section Documentation).",
   "cves": [
     {
-      "name": "CVE-2026-35554",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-35554"
+      "name": "CVE-2026-33557",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-33557"
+    },
+    {
+      "name": "CVE-2026-33558",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-33558"
     }
   ],
   "links": [],
-  "reference": "CERTFR-2026-AVI-0449",
+  "reference": "CERTFR-2026-AVI-0461",
   "revisions": [
     {
       "description": "Version initiale",
-      "revision_date": "2026-04-16T00:00:00.000000"
+      "revision_date": "2026-04-20T00:00:00.000000"
     }
   ],
   "risks": [
     {
-      "description": "Atteinte à l'intégrité des données"
+      "description": "Contournement de la politique de sécurité"
     },
     {
       "description": "Atteinte à la confidentialité des données"
     }
   ],
-  "summary": "Une vulnérabilité a été découverte dans Apache Kafka. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-  "title": "Vulnérabilité dans Apache Kafka",
+  "summary": "De multiples vulnérabilités ont été découvertes dans Apache Kafka. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+  "title": "Multiples vulnérabilités dans Apache Kafka",
   "vendor_advisories": [
     {
       "published_at": "2026-04-17",
