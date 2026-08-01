@@ -32,7 +32,7 @@
       }
     },
     {
-      "description": "Ubuntu 25.10",
+      "description": "Ubuntu 18.04 ESM",
       "product": {
         "name": "Ubuntu",
         "vendor": {
@@ -52,7 +52,7 @@
       }
     }
   ],
-  "affected_systems_content": null,
+  "affected_systems_content": "",
   "content": "## Solutions\n\nSe référer au bulletin de sécurité de l'éditeur pour l'obtention des correctifs (cf. section Documentation).",
   "cves": [
     {
@@ -100,6 +100,10 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2025-40016"
     },
     {
+      "name": "CVE-2022-48816",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2022-48816"
+    },
+    {
       "name": "CVE-2025-40103",
       "url": "https://www.cve.org/CVERecord?id=CVE-2025-40103"
     },
@@ -122,6 +126,14 @@
     {
       "name": "CVE-2024-46770",
       "url": "https://www.cve.org/CVERecord?id=CVE-2024-46770"
+    },
+    {
+      "name": "CVE-2023-53673",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2023-53673"
+    },
+    {
+      "name": "CVE-2025-40082",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-40082"
     },
     {
       "name": "CVE-2025-38626",
@@ -204,8 +216,20 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2025-23141"
     },
     {
+      "name": "CVE-2025-37778",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-37778"
+    },
+    {
+      "name": "CVE-2025-37924",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-37924"
+    },
+    {
       "name": "CVE-2025-37786",
       "url": "https://www.cve.org/CVERecord?id=CVE-2025-37786"
+    },
+    {
+      "name": "CVE-2025-37822",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-37822"
     },
     {
       "name": "CVE-2022-50073",
@@ -236,8 +260,16 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2025-38426"
     },
     {
+      "name": "CVE-2025-38201",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-38201"
+    },
+    {
       "name": "CVE-2025-40135",
       "url": "https://www.cve.org/CVERecord?id=CVE-2025-40135"
+    },
+    {
+      "name": "CVE-2025-68214",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-68214"
     },
     {
       "name": "CVE-2025-68307",
@@ -268,12 +300,20 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2025-68175"
     },
     {
+      "name": "CVE-2025-68263",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-68263"
+    },
+    {
       "name": "CVE-2025-68358",
       "url": "https://www.cve.org/CVERecord?id=CVE-2025-68358"
     },
     {
       "name": "CVE-2026-22985",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-22985"
+    },
+    {
+      "name": "CVE-2025-71089",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-71089"
     },
     {
       "name": "CVE-2025-71150",
@@ -704,6 +744,26 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2025-71203"
     },
     {
+      "name": "CVE-2025-71220",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-71220"
+    },
+    {
+      "name": "CVE-2025-71222",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-71222"
+    },
+    {
+      "name": "CVE-2025-71224",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-71224"
+    },
+    {
+      "name": "CVE-2025-71229",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-71229"
+    },
+    {
+      "name": "CVE-2025-71231",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-71231"
+    },
+    {
       "name": "CVE-2025-71232",
       "url": "https://www.cve.org/CVERecord?id=CVE-2025-71232"
     },
@@ -728,8 +788,44 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-23169"
     },
     {
+      "name": "CVE-2026-23176",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-23176"
+    },
+    {
+      "name": "CVE-2026-23180",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-23180"
+    },
+    {
+      "name": "CVE-2026-23182",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-23182"
+    },
+    {
+      "name": "CVE-2026-23190",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-23190"
+    },
+    {
+      "name": "CVE-2026-23193",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-23193"
+    },
+    {
+      "name": "CVE-2026-23198",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-23198"
+    },
+    {
+      "name": "CVE-2026-23202",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-23202"
+    },
+    {
       "name": "CVE-2026-23204",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-23204"
+    },
+    {
+      "name": "CVE-2026-23206",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-23206"
+    },
+    {
+      "name": "CVE-2026-23216",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-23216"
     },
     {
       "name": "CVE-2026-23220",
@@ -746,6 +842,10 @@
     {
       "name": "CVE-2026-23229",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-23229"
+    },
+    {
+      "name": "CVE-2026-23230",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-23230"
     },
     {
       "name": "CVE-2026-23212",
@@ -770,6 +870,10 @@
     {
       "name": "CVE-2026-23221",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-23221"
+    },
+    {
+      "name": "CVE-2026-23233",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-23233"
     },
     {
       "name": "CVE-2026-23234",
@@ -1030,6 +1134,10 @@
     {
       "name": "CVE-2026-23266",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-23266"
+    },
+    {
+      "name": "CVE-2026-23267",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-23267"
     },
     {
       "name": "CVE-2026-31788",
@@ -1338,6 +1446,10 @@
     {
       "name": "CVE-2026-23255",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-23255"
+    },
+    {
+      "name": "CVE-2026-23262",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-23262"
     },
     {
       "name": "CVE-2026-23270",
@@ -2384,6 +2496,10 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-43057"
     },
     {
+      "name": "CVE-2026-23249",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-23249"
+    },
+    {
       "name": "CVE-2026-23276",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-23276"
     },
@@ -2632,6 +2748,26 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-31686"
     },
     {
+      "name": "CVE-2026-31693",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-31693"
+    },
+    {
+      "name": "CVE-2025-71294",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-71294"
+    },
+    {
+      "name": "CVE-2026-43201",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43201"
+    },
+    {
+      "name": "CVE-2026-43300",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43300"
+    },
+    {
+      "name": "CVE-2026-43320",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43320"
+    },
+    {
       "name": "CVE-2025-54518",
       "url": "https://www.cve.org/CVERecord?id=CVE-2025-54518"
     },
@@ -2654,10 +2790,6 @@
     {
       "name": "CVE-2026-31715",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-31715"
-    },
-    {
-      "name": "CVE-2026-46333",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-46333"
     },
     {
       "name": "CVE-2026-23123",
@@ -2684,8 +2816,16 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-23168"
     },
     {
-      "name": "CVE-2026-46300",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-46300"
+      "name": "CVE-2026-23256",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-23256"
+    },
+    {
+      "name": "CVE-2026-23257",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-23257"
+    },
+    {
+      "name": "CVE-2026-23258",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-23258"
     },
     {
       "name": "CVE-2026-31499",
@@ -2764,52 +2904,8 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-46243"
     },
     {
-      "name": "CVE-2026-45998",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45998"
-    },
-    {
-      "name": "CVE-2026-46000",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-46000"
-    },
-    {
       "name": "CVE-2026-46028",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-46028"
-    },
-    {
-      "name": "CVE-2026-47326",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-47326"
-    },
-    {
-      "name": "CVE-2026-47327",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-47327"
-    },
-    {
-      "name": "CVE-2026-47328",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-47328"
-    },
-    {
-      "name": "CVE-2026-47329",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-47329"
-    },
-    {
-      "name": "CVE-2026-47330",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-47330"
-    },
-    {
-      "name": "CVE-2026-47332",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-47332"
-    },
-    {
-      "name": "CVE-2026-47333",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-47333"
-    },
-    {
-      "name": "CVE-2026-47334",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-47334"
-    },
-    {
-      "name": "CVE-2026-47337",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-47337"
     },
     {
       "name": "CVE-2025-71274",
@@ -3320,6 +3416,10 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-45912"
     },
     {
+      "name": "CVE-2026-45914",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45914"
+    },
+    {
       "name": "CVE-2026-45915",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-45915"
     },
@@ -3334,6 +3434,10 @@
     {
       "name": "CVE-2026-45920",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-45920"
+    },
+    {
+      "name": "CVE-2026-45923",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45923"
     },
     {
       "name": "CVE-2026-45936",
@@ -3388,6 +3492,10 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-45978"
     },
     {
+      "name": "CVE-2026-45981",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45981"
+    },
+    {
       "name": "CVE-2026-45983",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-45983"
     },
@@ -3418,6 +3526,14 @@
     {
       "name": "CVE-2026-43120",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-43120"
+    },
+    {
+      "name": "CVE-2026-43153",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43153"
+    },
+    {
+      "name": "CVE-2026-43214",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43214"
     },
     {
       "name": "CVE-2026-43265",
@@ -4156,6 +4272,10 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-43501"
     },
     {
+      "name": "CVE-2026-45910",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45910"
+    },
+    {
       "name": "CVE-2026-43056",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-43056"
     },
@@ -4170,10 +4290,6 @@
     {
       "name": "CVE-2026-46181",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-46181"
-    },
-    {
-      "name": "CVE-2026-46323",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-46323"
     },
     {
       "name": "CVE-2026-31772",
@@ -4264,8 +4380,16 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-43065"
     },
     {
+      "name": "CVE-2026-43150",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43150"
+    },
+    {
       "name": "CVE-2026-43197",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-43197"
+    },
+    {
+      "name": "CVE-2026-43249",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43249"
     },
     {
       "name": "CVE-2026-43332",
@@ -4286,6 +4410,14 @@
     {
       "name": "CVE-2026-43483",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-43483"
+    },
+    {
+      "name": "CVE-2026-45878",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45878"
+    },
+    {
+      "name": "CVE-2026-45886",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45886"
     },
     {
       "name": "CVE-2026-45898",
@@ -4464,6 +4596,34 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-52944"
     },
     {
+      "name": "CVE-2025-71272",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-71272"
+    },
+    {
+      "name": "CVE-2025-71273",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-71273"
+    },
+    {
+      "name": "CVE-2025-71286",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-71286"
+    },
+    {
+      "name": "CVE-2025-71291",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-71291"
+    },
+    {
+      "name": "CVE-2025-71295",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-71295"
+    },
+    {
+      "name": "CVE-2025-71297",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-71297"
+    },
+    {
+      "name": "CVE-2025-71305",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-71305"
+    },
+    {
       "name": "CVE-2026-31574",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-31574"
     },
@@ -4548,8 +4708,20 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-43123"
     },
     {
+      "name": "CVE-2026-43128",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43128"
+    },
+    {
       "name": "CVE-2026-43133",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-43133"
+    },
+    {
+      "name": "CVE-2026-43137",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43137"
+    },
+    {
+      "name": "CVE-2026-43143",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43143"
     },
     {
       "name": "CVE-2026-43145",
@@ -4560,12 +4732,44 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-43148"
     },
     {
+      "name": "CVE-2026-43157",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43157"
+    },
+    {
+      "name": "CVE-2026-43167",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43167"
+    },
+    {
+      "name": "CVE-2026-43169",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43169"
+    },
+    {
+      "name": "CVE-2026-43170",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43170"
+    },
+    {
+      "name": "CVE-2026-43173",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43173"
+    },
+    {
+      "name": "CVE-2026-43175",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43175"
+    },
+    {
       "name": "CVE-2026-43182",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-43182"
     },
     {
       "name": "CVE-2026-43186",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-43186"
+    },
+    {
+      "name": "CVE-2026-43189",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43189"
+    },
+    {
+      "name": "CVE-2026-43199",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43199"
     },
     {
       "name": "CVE-2026-43200",
@@ -4576,20 +4780,84 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-43205"
     },
     {
+      "name": "CVE-2026-43212",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43212"
+    },
+    {
+      "name": "CVE-2026-43215",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43215"
+    },
+    {
+      "name": "CVE-2026-43221",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43221"
+    },
+    {
+      "name": "CVE-2026-43222",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43222"
+    },
+    {
       "name": "CVE-2026-43225",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-43225"
+    },
+    {
+      "name": "CVE-2026-43238",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43238"
+    },
+    {
+      "name": "CVE-2026-43239",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43239"
+    },
+    {
+      "name": "CVE-2026-43244",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43244"
+    },
+    {
+      "name": "CVE-2026-43248",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43248"
+    },
+    {
+      "name": "CVE-2026-43250",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43250"
+    },
+    {
+      "name": "CVE-2026-43253",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43253"
+    },
+    {
+      "name": "CVE-2026-43256",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43256"
+    },
+    {
+      "name": "CVE-2026-43258",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43258"
     },
     {
       "name": "CVE-2026-43262",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-43262"
     },
     {
+      "name": "CVE-2026-43271",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43271"
+    },
+    {
       "name": "CVE-2026-43275",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-43275"
     },
     {
+      "name": "CVE-2026-43278",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43278"
+    },
+    {
+      "name": "CVE-2026-43288",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43288"
+    },
+    {
       "name": "CVE-2026-43291",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-43291"
+    },
+    {
+      "name": "CVE-2026-43297",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43297"
     },
     {
       "name": "CVE-2026-43302",
@@ -4612,8 +4880,16 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-43315"
     },
     {
+      "name": "CVE-2026-43317",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43317"
+    },
+    {
       "name": "CVE-2026-43318",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-43318"
+    },
+    {
+      "name": "CVE-2026-43319",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43319"
     },
     {
       "name": "CVE-2026-43348",
@@ -4656,28 +4932,132 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-45847"
     },
     {
+      "name": "CVE-2026-45849",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45849"
+    },
+    {
+      "name": "CVE-2026-45851",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45851"
+    },
+    {
+      "name": "CVE-2026-45859",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45859"
+    },
+    {
+      "name": "CVE-2026-45861",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45861"
+    },
+    {
       "name": "CVE-2026-45864",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-45864"
+    },
+    {
+      "name": "CVE-2026-45865",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45865"
+    },
+    {
+      "name": "CVE-2026-45872",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45872"
+    },
+    {
+      "name": "CVE-2026-45877",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45877"
+    },
+    {
+      "name": "CVE-2026-45880",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45880"
+    },
+    {
+      "name": "CVE-2026-45881",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45881"
+    },
+    {
+      "name": "CVE-2026-45882",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45882"
+    },
+    {
+      "name": "CVE-2026-45884",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45884"
     },
     {
       "name": "CVE-2026-45891",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-45891"
     },
     {
+      "name": "CVE-2026-45893",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45893"
+    },
+    {
+      "name": "CVE-2026-45895",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45895"
+    },
+    {
       "name": "CVE-2026-45902",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-45902"
+    },
+    {
+      "name": "CVE-2026-45905",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45905"
+    },
+    {
+      "name": "CVE-2026-45913",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45913"
+    },
+    {
+      "name": "CVE-2026-45917",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45917"
+    },
+    {
+      "name": "CVE-2026-45921",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45921"
+    },
+    {
+      "name": "CVE-2026-45928",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45928"
     },
     {
       "name": "CVE-2026-45935",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-45935"
     },
     {
+      "name": "CVE-2026-45938",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45938"
+    },
+    {
       "name": "CVE-2026-45946",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-45946"
     },
     {
+      "name": "CVE-2026-45947",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45947"
+    },
+    {
+      "name": "CVE-2026-45957",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45957"
+    },
+    {
+      "name": "CVE-2026-45962",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45962"
+    },
+    {
       "name": "CVE-2026-45969",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-45969"
+    },
+    {
+      "name": "CVE-2026-45972",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45972"
+    },
+    {
+      "name": "CVE-2026-45973",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45973"
+    },
+    {
+      "name": "CVE-2026-45976",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45976"
+    },
+    {
+      "name": "CVE-2026-45982",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-45982"
     },
     {
       "name": "CVE-2026-45990",
@@ -4836,6 +5216,14 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-46100"
     },
     {
+      "name": "CVE-2026-46246",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-46246"
+    },
+    {
+      "name": "CVE-2026-46247",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-46247"
+    },
+    {
       "name": "CVE-2026-46249",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-46249"
     },
@@ -4844,8 +5232,32 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-46250"
     },
     {
+      "name": "CVE-2026-46251",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-46251"
+    },
+    {
       "name": "CVE-2026-46253",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-46253"
+    },
+    {
+      "name": "CVE-2026-46254",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-46254"
+    },
+    {
+      "name": "CVE-2026-46255",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-46255"
+    },
+    {
+      "name": "CVE-2026-46260",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-46260"
+    },
+    {
+      "name": "CVE-2026-46261",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-46261"
+    },
+    {
+      "name": "CVE-2026-46265",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-46265"
     },
     {
       "name": "CVE-2026-46266",
@@ -5546,6 +5958,170 @@
     {
       "name": "CVE-2026-53293",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-53293"
+    },
+    {
+      "name": "CVE-2026-43185",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-43185"
+    },
+    {
+      "name": "CVE-2026-64208",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64208"
+    },
+    {
+      "name": "CVE-2026-64209",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64209"
+    },
+    {
+      "name": "CVE-2026-64210",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64210"
+    },
+    {
+      "name": "CVE-2026-64211",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64211"
+    },
+    {
+      "name": "CVE-2026-64212",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64212"
+    },
+    {
+      "name": "CVE-2026-64213",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64213"
+    },
+    {
+      "name": "CVE-2026-64214",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64214"
+    },
+    {
+      "name": "CVE-2026-64215",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64215"
+    },
+    {
+      "name": "CVE-2026-64216",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64216"
+    },
+    {
+      "name": "CVE-2026-64217",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64217"
+    },
+    {
+      "name": "CVE-2026-64218",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64218"
+    },
+    {
+      "name": "CVE-2026-64219",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64219"
+    },
+    {
+      "name": "CVE-2026-64220",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64220"
+    },
+    {
+      "name": "CVE-2026-64221",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64221"
+    },
+    {
+      "name": "CVE-2026-64222",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64222"
+    },
+    {
+      "name": "CVE-2026-64223",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64223"
+    },
+    {
+      "name": "CVE-2026-64224",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64224"
+    },
+    {
+      "name": "CVE-2026-64225",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64225"
+    },
+    {
+      "name": "CVE-2026-64226",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64226"
+    },
+    {
+      "name": "CVE-2026-64227",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64227"
+    },
+    {
+      "name": "CVE-2026-64228",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64228"
+    },
+    {
+      "name": "CVE-2026-64229",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64229"
+    },
+    {
+      "name": "CVE-2026-64230",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64230"
+    },
+    {
+      "name": "CVE-2026-64231",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64231"
+    },
+    {
+      "name": "CVE-2026-64232",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64232"
+    },
+    {
+      "name": "CVE-2026-64233",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64233"
+    },
+    {
+      "name": "CVE-2026-64234",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64234"
+    },
+    {
+      "name": "CVE-2026-64235",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64235"
+    },
+    {
+      "name": "CVE-2026-64236",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64236"
+    },
+    {
+      "name": "CVE-2026-64237",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64237"
+    },
+    {
+      "name": "CVE-2026-64238",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64238"
+    },
+    {
+      "name": "CVE-2026-64239",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64239"
+    },
+    {
+      "name": "CVE-2026-64240",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64240"
+    },
+    {
+      "name": "CVE-2026-64241",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64241"
+    },
+    {
+      "name": "CVE-2026-64242",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64242"
+    },
+    {
+      "name": "CVE-2026-64243",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64243"
+    },
+    {
+      "name": "CVE-2026-64515",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64515"
+    },
+    {
+      "name": "CVE-2026-64516",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64516"
+    },
+    {
+      "name": "CVE-2026-64517",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64517"
+    },
+    {
+      "name": "CVE-2026-64518",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64518"
     },
     {
       "name": "CVE-2025-71187",
@@ -8014,14 +8590,54 @@
     {
       "name": "CVE-2026-64186",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-64186"
+    },
+    {
+      "name": "CVE-2026-64519",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64519"
+    },
+    {
+      "name": "CVE-2026-64520",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64520"
+    },
+    {
+      "name": "CVE-2026-64521",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64521"
+    },
+    {
+      "name": "CVE-2026-64522",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64522"
+    },
+    {
+      "name": "CVE-2026-64523",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64523"
+    },
+    {
+      "name": "CVE-2026-64524",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64524"
+    },
+    {
+      "name": "CVE-2026-64525",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64525"
+    },
+    {
+      "name": "CVE-2026-64526",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64526"
+    },
+    {
+      "name": "CVE-2026-64527",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64527"
+    },
+    {
+      "name": "CVE-2026-64528",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-64528"
     }
   ],
   "links": [],
-  "reference": "CERTFR-2026-AVI-0926",
+  "reference": "CERTFR-2026-AVI-0954",
   "revisions": [
     {
       "description": "Version initiale",
-      "revision_date": "2026-07-24T00:00:00.000000"
+      "revision_date": "2026-07-31T00:00:00.000000"
     }
   ],
   "risks": [
@@ -8030,9 +8646,6 @@
     },
     {
       "description": "Non spécifié par l'éditeur"
-    },
-    {
-      "description": "Déni de service"
     },
     {
       "description": "Contournement de la politique de sécurité"
@@ -8048,84 +8661,124 @@
   "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu",
   "vendor_advisories": [
     {
-      "published_at": "2026-07-21",
-      "title": "Bulletin de sécurité Ubuntu USN-8575-1",
-      "url": "https://ubuntu.com/security/notices/USN-8575-1"
+      "published_at": "2026-07-29",
+      "title": "Bulletin de sécurité Ubuntu USN-8622-1",
+      "url": "https://ubuntu.com/security/notices/USN-8622-1"
     },
     {
-      "published_at": "2026-07-23",
-      "title": "Bulletin de sécurité Ubuntu USN-8575-2",
-      "url": "https://ubuntu.com/security/notices/USN-8575-2"
+      "published_at": "2026-07-28",
+      "title": "Bulletin de sécurité Ubuntu USN-8620-1",
+      "url": "https://ubuntu.com/security/notices/USN-8620-1"
     },
     {
-      "published_at": "2026-07-23",
-      "title": "Bulletin de sécurité Ubuntu USN-8596-1",
-      "url": "https://ubuntu.com/security/notices/USN-8596-1"
+      "published_at": "2026-07-24",
+      "title": "Bulletin de sécurité Ubuntu USN-8604-1",
+      "url": "https://ubuntu.com/security/notices/USN-8604-1"
     },
     {
-      "published_at": "2026-07-23",
-      "title": "Bulletin de sécurité Ubuntu USN-8593-1",
-      "url": "https://ubuntu.com/security/notices/USN-8593-1"
+      "published_at": "2026-07-28",
+      "title": "Bulletin de sécurité Ubuntu USN-8615-1",
+      "url": "https://ubuntu.com/security/notices/USN-8615-1"
     },
     {
-      "published_at": "2026-07-20",
-      "title": "Bulletin de sécurité Ubuntu USN-8568-1",
-      "url": "https://ubuntu.com/security/notices/USN-8568-1"
+      "published_at": "2026-07-28",
+      "title": "Bulletin de sécurité Ubuntu USN-8574-3",
+      "url": "https://ubuntu.com/security/notices/USN-8574-3"
     },
     {
-      "published_at": "2026-07-20",
-      "title": "Bulletin de sécurité Ubuntu USN-8570-1",
-      "url": "https://ubuntu.com/security/notices/USN-8570-1"
+      "published_at": "2026-07-28",
+      "title": "Bulletin de sécurité Ubuntu USN-8619-1",
+      "url": "https://ubuntu.com/security/notices/USN-8619-1"
     },
     {
-      "published_at": "2026-07-23",
-      "title": "Bulletin de sécurité Ubuntu USN-8595-1",
-      "url": "https://ubuntu.com/security/notices/USN-8595-1"
+      "published_at": "2026-07-24",
+      "title": "Bulletin de sécurité Ubuntu USN-8595-2",
+      "url": "https://ubuntu.com/security/notices/USN-8595-2"
     },
     {
-      "published_at": "2026-07-20",
-      "title": "Bulletin de sécurité Ubuntu USN-8566-1",
-      "url": "https://ubuntu.com/security/notices/USN-8566-1"
+      "published_at": "2026-07-28",
+      "title": "Bulletin de sécurité Ubuntu USN-8570-2",
+      "url": "https://ubuntu.com/security/notices/USN-8570-2"
     },
     {
-      "published_at": "2026-07-21",
-      "title": "Bulletin de sécurité Ubuntu USN-8576-1",
-      "url": "https://ubuntu.com/security/notices/USN-8576-1"
+      "published_at": "2026-07-29",
+      "title": "Bulletin de sécurité Ubuntu USN-8623-1",
+      "url": "https://ubuntu.com/security/notices/USN-8623-1"
     },
     {
-      "published_at": "2026-07-17",
-      "title": "Bulletin de sécurité Ubuntu USN-8490-2",
-      "url": "https://ubuntu.com/security/notices/USN-8490-2"
+      "published_at": "2026-07-24",
+      "title": "Bulletin de sécurité Ubuntu USN-8575-3",
+      "url": "https://ubuntu.com/security/notices/USN-8575-3"
     },
     {
-      "published_at": "2026-07-23",
-      "title": "Bulletin de sécurité Ubuntu USN-8594-1",
-      "url": "https://ubuntu.com/security/notices/USN-8594-1"
+      "published_at": "2026-07-24",
+      "title": "Bulletin de sécurité Ubuntu USN-8608-1",
+      "url": "https://ubuntu.com/security/notices/USN-8608-1"
     },
     {
-      "published_at": "2026-07-23",
-      "title": "Bulletin de sécurité Ubuntu USN-8574-2",
-      "url": "https://ubuntu.com/security/notices/USN-8574-2"
+      "published_at": "2026-07-28",
+      "title": "Bulletin de sécurité Ubuntu USN-8547-2",
+      "url": "https://ubuntu.com/security/notices/USN-8547-2"
     },
     {
-      "published_at": "2026-07-20",
-      "title": "Bulletin de sécurité Ubuntu USN-8567-1",
-      "url": "https://ubuntu.com/security/notices/USN-8567-1"
+      "published_at": "2026-07-29",
+      "title": "Bulletin de sécurité Ubuntu USN-8615-2",
+      "url": "https://ubuntu.com/security/notices/USN-8615-2"
     },
     {
-      "published_at": "2026-07-23",
-      "title": "Bulletin de sécurité Ubuntu USN-8597-1",
-      "url": "https://ubuntu.com/security/notices/USN-8597-1"
+      "published_at": "2026-07-28",
+      "title": "Bulletin de sécurité Ubuntu USN-8618-1",
+      "url": "https://ubuntu.com/security/notices/USN-8618-1"
     },
     {
-      "published_at": "2026-07-23",
-      "title": "Bulletin de sécurité Ubuntu USN-8576-2",
-      "url": "https://ubuntu.com/security/notices/USN-8576-2"
+      "published_at": "2026-07-28",
+      "title": "Bulletin de sécurité Ubuntu USN-8617-1",
+      "url": "https://ubuntu.com/security/notices/USN-8617-1"
     },
     {
-      "published_at": "2026-07-20",
-      "title": "Bulletin de sécurité Ubuntu USN-8569-1",
-      "url": "https://ubuntu.com/security/notices/USN-8569-1"
+      "published_at": "2026-07-24",
+      "title": "Bulletin de sécurité Ubuntu USN-8609-1",
+      "url": "https://ubuntu.com/security/notices/USN-8609-1"
+    },
+    {
+      "published_at": "2026-07-24",
+      "title": "Bulletin de sécurité Ubuntu USN-8607-1",
+      "url": "https://ubuntu.com/security/notices/USN-8607-1"
+    },
+    {
+      "published_at": "2026-07-28",
+      "title": "Bulletin de sécurité Ubuntu USN-8595-3",
+      "url": "https://ubuntu.com/security/notices/USN-8595-3"
+    },
+    {
+      "published_at": "2026-07-24",
+      "title": "Bulletin de sécurité Ubuntu USN-8605-1",
+      "url": "https://ubuntu.com/security/notices/USN-8605-1"
+    },
+    {
+      "published_at": "2026-07-28",
+      "title": "Bulletin de sécurité Ubuntu USN-8616-1",
+      "url": "https://ubuntu.com/security/notices/USN-8616-1"
+    },
+    {
+      "published_at": "2026-07-24",
+      "title": "Bulletin de sécurité Ubuntu USN-8603-1",
+      "url": "https://ubuntu.com/security/notices/USN-8603-1"
+    },
+    {
+      "published_at": "2026-07-29",
+      "title": "Bulletin de sécurité Ubuntu USN-8620-2",
+      "url": "https://ubuntu.com/security/notices/USN-8620-2"
+    },
+    {
+      "published_at": "2026-07-24",
+      "title": "Bulletin de sécurité Ubuntu USN-8610-1",
+      "url": "https://ubuntu.com/security/notices/USN-8610-1"
+    },
+    {
+      "published_at": "2026-07-24",
+      "title": "Bulletin de sécurité Ubuntu USN-8606-1",
+      "url": "https://ubuntu.com/security/notices/USN-8606-1"
     }
   ]
 }
