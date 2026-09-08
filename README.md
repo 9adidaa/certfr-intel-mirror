@@ -27,7 +27,7 @@ Cette documentation a pour objectif de fournir une référence technique sur les
 ---
 
 <!-- STATUS:START -->
-Last CI success: 2026-09-07 01:22 UTC
+Last CI success: 2026-09-08 02:00 UTC
 
 ### Validation
 | Check | Status |
@@ -38,7 +38,7 @@ Last CI success: 2026-09-07 01:22 UTC
 | Tests executed | **11 passed** |
 
 ### Dataset size
-- Advisories: **17463**
-- Unique CVEs: **92914**
+- Advisories: **17469**
+- Unique CVEs: **92952**
 
 <!-- STATUS:END -->
