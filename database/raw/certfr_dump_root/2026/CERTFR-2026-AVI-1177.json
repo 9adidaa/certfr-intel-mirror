@@ -2,7 +2,7 @@
   "$ref": "https://www.cert.ssi.gouv.fr/openapi.json",
   "affected_systems": [
     {
-      "description": "Zookeeper versions 3.8.x antérieures à 3.8.6",
+      "description": "Zookeeper versions 3.9.x antérieures à 3.9.6",
       "product": {
         "name": "Zookeeper",
         "vendor": {
@@ -12,7 +12,7 @@
       }
     },
     {
-      "description": "Zookeeper versions 3.9.x antérieures à 3.9.5",
+      "description": "Zookeeper versions 3.8.x antérieures à 3.8.7",
       "product": {
         "name": "Zookeeper",
         "vendor": {
@@ -26,23 +26,38 @@
   "content": "## Solutions\n\nSe référer au bulletin de sécurité de l'éditeur pour l'obtention des correctifs (cf. section Documentation).",
   "cves": [
     {
-      "name": "CVE-2026-24308",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-24308"
+      "name": "CVE-2026-84439",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-84439"
     },
     {
-      "name": "CVE-2026-24281",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-24281"
+      "name": "CVE-2026-84501",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-84501"
+    },
+    {
+      "name": "CVE-2026-59739",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-59739"
+    },
+    {
+      "name": "CVE-2026-59969",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-59969"
+    },
+    {
+      "name": "CVE-2026-79993",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-79993"
     }
   ],
   "links": [],
-  "reference": "CERTFR-2026-AVI-0251",
+  "reference": "CERTFR-2026-AVI-1177",
   "revisions": [
     {
       "description": "Version initiale",
-      "revision_date": "2026-03-09T00:00:00.000000"
+      "revision_date": "2026-09-16T00:00:00.000000"
     }
   ],
   "risks": [
+    {
+      "description": "Atteinte à l'intégrité des données"
+    },
     {
       "description": "Contournement de la politique de sécurité"
     },
@@ -50,7 +65,7 @@
       "description": "Atteinte à la confidentialité des données"
     }
   ],
-  "summary": "De multiples vulnérabilités ont été découvertes dans Apache Zookeeper. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+  "summary": "De multiples vulnérabilités ont été découvertes dans Apache Zookeeper. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politique de sécurité.",
   "title": "Multiples vulnérabilités dans Apache Zookeeper",
   "vendor_advisories": [
     {
