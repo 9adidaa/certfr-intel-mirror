@@ -1,0 +1,162 @@
+{
+  "$ref": "https://www.cert.ssi.gouv.fr/openapi.json",
+  "affected_systems": [
+    {
+      "description": "symfony versions 7.x antérieures à 7.4.24",
+      "product": {
+        "name": "Symfony",
+        "vendor": {
+          "name": "Symfony",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "symfony versions antérieures à 5.4.57",
+      "product": {
+        "name": "Symfony",
+        "vendor": {
+          "name": "Symfony",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "symfony versions 6.x antérieures à 6.4.51",
+      "product": {
+        "name": "Symfony",
+        "vendor": {
+          "name": "Symfony",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "symfony versions 8.x antérieures à 8.1.12",
+      "product": {
+        "name": "Symfony",
+        "vendor": {
+          "name": "Symfony",
+          "scada": false
+        }
+      }
+    }
+  ],
+  "affected_systems_content": "",
+  "content": "## Solutions\n\nSe référer au bulletin de sécurité de l'éditeur pour l'obtention des correctifs (cf. section Documentation).",
+  "cves": [
+    {
+      "name": "CVE-2026-133762",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-133762"
+    },
+    {
+      "name": "CVE-2026-133757",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-133757"
+    },
+    {
+      "name": "CVE-2026-133759",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-133759"
+    },
+    {
+      "name": "CVE-2026-133761",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-133761"
+    },
+    {
+      "name": "CVE-2026-134790",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-134790"
+    },
+    {
+      "name": "CVE-2026-133756",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-133756"
+    },
+    {
+      "name": "CVE-2026-133760",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-133760"
+    },
+    {
+      "name": "CVE-2026-133758",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-133758"
+    },
+    {
+      "name": "CVE-2026-134792",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-134792"
+    },
+    {
+      "name": "CVE-2026-134791",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-134791"
+    }
+  ],
+  "links": [],
+  "reference": "CERTFR-2026-AVI-1619",
+  "revisions": [
+    {
+      "description": "Version initiale",
+      "revision_date": "2026-11-25T00:00:00.000000"
+    }
+  ],
+  "risks": [
+    {
+      "description": "Déni de service à distance"
+    },
+    {
+      "description": "Contournement de la politique de sécurité"
+    },
+    {
+      "description": "Atteinte à la confidentialité des données"
+    }
+  ],
+  "summary": "De multiples vulnérabilités ont été découvertes dans Symfony. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+  "title": "Multiples vulnérabilités dans Symfony",
+  "vendor_advisories": [
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité Symfony GHSA-4q5m-f3jq-v37c",
+      "url": "https://github.com/symfony/symfony/security/advisories/GHSA-4q5m-f3jq-v37c"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité Symfony GHSA-v6qm-94rx-6x93",
+      "url": "https://github.com/symfony/symfony/security/advisories/GHSA-v6qm-94rx-6x93"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité Symfony GHSA-5vf6-gchv-cmcr",
+      "url": "https://github.com/symfony/symfony/security/advisories/GHSA-5vf6-gchv-cmcr"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité Symfony GHSA-fvvg-g68p-p6q9",
+      "url": "https://github.com/symfony/symfony/security/advisories/GHSA-fvvg-g68p-p6q9"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité Symfony GHSA-p5hc-hv32-fgxg",
+      "url": "https://github.com/symfony/symfony/security/advisories/GHSA-p5hc-hv32-fgxg"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité Symfony GHSA-xf2q-gfhq-mv2q",
+      "url": "https://github.com/symfony/symfony/security/advisories/GHSA-xf2q-gfhq-mv2q"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité Symfony GHSA-cjfx-x9pc-q4rx",
+      "url": "https://github.com/symfony/symfony/security/advisories/GHSA-cjfx-x9pc-q4rx"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité Symfony GHSA-4xg9-mw5c-qq5p",
+      "url": "https://github.com/symfony/symfony/security/advisories/GHSA-4xg9-mw5c-qq5p"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité Symfony GHSA-wccc-v7v7-gc54",
+      "url": "https://github.com/symfony/symfony/security/advisories/GHSA-wccc-v7v7-gc54"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité Symfony GHSA-rvjx-g4vq-c3hv",
+      "url": "https://github.com/symfony/symfony/security/advisories/GHSA-rvjx-g4vq-c3hv"
+    }
+  ]
+}

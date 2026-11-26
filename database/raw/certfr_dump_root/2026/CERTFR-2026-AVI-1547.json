@@ -16,8 +16,24 @@
   "content": "## Solutions\n\nSe référer au bulletin de sécurité de l'éditeur pour l'obtention des correctifs (cf. section Documentation).",
   "cves": [
     {
+      "name": "CVE-2026-133311",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-133311"
+    },
+    {
+      "name": "CVE-2026-133275",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-133275"
+    },
+    {
+      "name": "CVE-2026-133324",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-133324"
+    },
+    {
       "name": "CVE-2026-133323",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-133323"
+    },
+    {
+      "name": "CVE-2026-133303",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-133303"
     }
   ],
   "links": [],
@@ -30,6 +46,10 @@
     {
       "description": "Ajout de l'identifiant CVE-2026-133323.",
       "revision_date": "2026-11-24T00:00:00.000000"
+    },
+    {
+      "description": "Ajout de l'identifiant CVE-2026-133275, CVE-2026-133303, CVE-2026-133311 et CVE-2026-133324.",
+      "revision_date": "2026-11-25T00:00:00.000000"
     }
   ],
   "risks": [

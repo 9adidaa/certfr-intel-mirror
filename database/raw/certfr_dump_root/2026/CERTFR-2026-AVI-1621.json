@@ -1,0 +1,235 @@
+{
+  "$ref": "https://www.cert.ssi.gouv.fr/openapi.json",
+  "affected_systems": [
+    {
+      "description": "PAN-OS versions 10.2.13-hx antérieures à 10.2.13-h29",
+      "product": {
+        "name": "PAN-OS",
+        "vendor": {
+          "name": "Palo Alto Networks",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "PAN-OS versions 11.1.13-hx antérieures à 11.1.13-h18",
+      "product": {
+        "name": "PAN-OS",
+        "vendor": {
+          "name": "Palo Alto Networks",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "PAN-OS versions 11.2.7-hx antérieures à 11.2.7-h25",
+      "product": {
+        "name": "PAN-OS",
+        "vendor": {
+          "name": "Palo Alto Networks",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "PAN-OS versions 11.1.16-hx antérieures à 11.1.16-h6",
+      "product": {
+        "name": "PAN-OS",
+        "vendor": {
+          "name": "Palo Alto Networks",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "PAN-OS versions 12.1.4-hx antérieures à 12.1.4-h15",
+      "product": {
+        "name": "PAN-OS",
+        "vendor": {
+          "name": "Palo Alto Networks",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "PAN-OS versions 11.2.16-hx antérieures à 11.2.16-h3",
+      "product": {
+        "name": "PAN-OS",
+        "vendor": {
+          "name": "Palo Alto Networks",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "PAN-OS versions 11.2.4-hx antérieures à 11.2.4-h25",
+      "product": {
+        "name": "PAN-OS",
+        "vendor": {
+          "name": "Palo Alto Networks",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "PAN-OS versions 12.2.4-hx antérieures à 12.2.4-h3",
+      "product": {
+        "name": "PAN-OS",
+        "vendor": {
+          "name": "Palo Alto Networks",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "PAN-OS versions 11.1.6-hx antérieures à 11.1.6-h42",
+      "product": {
+        "name": "PAN-OS",
+        "vendor": {
+          "name": "Palo Alto Networks",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "PAN-OS versions 11.2.10-hx antérieures à 11.2.10-h19",
+      "product": {
+        "name": "PAN-OS",
+        "vendor": {
+          "name": "Palo Alto Networks",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "PAN-OS versions 11.1.4-hx antérieures à 11.1.4-h40",
+      "product": {
+        "name": "PAN-OS",
+        "vendor": {
+          "name": "Palo Alto Networks",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "PAN-OS versions 10.2.18-hx antérieures à 10.2.18-h15",
+      "product": {
+        "name": "PAN-OS",
+        "vendor": {
+          "name": "Palo Alto Networks",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "PAN-OS versions 11.2.13-hx antérieures à 11.2.13-h6",
+      "product": {
+        "name": "PAN-OS",
+        "vendor": {
+          "name": "Palo Alto Networks",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "PAN-OS versions 10.2.16-hx antérieures à 10.2.16-h14",
+      "product": {
+        "name": "PAN-OS",
+        "vendor": {
+          "name": "Palo Alto Networks",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "PAN-OS versions 10.2.7-hx antérieures à 10.2.7-h41",
+      "product": {
+        "name": "PAN-OS",
+        "vendor": {
+          "name": "Palo Alto Networks",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "PAN-OS versions 12.1.10-hx antérieures à 12.1.10-h6",
+      "product": {
+        "name": "PAN-OS",
+        "vendor": {
+          "name": "Palo Alto Networks",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "PAN-OS versions 10.2.10-hx antérieures à 10.2.10-h45",
+      "product": {
+        "name": "PAN-OS",
+        "vendor": {
+          "name": "Palo Alto Networks",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "PAN-OS versions 11.1.7-hx antérieures à 11.1.7-h14",
+      "product": {
+        "name": "PAN-OS",
+        "vendor": {
+          "name": "Palo Alto Networks",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "PAN-OS versions 12.1.7-hx antérieures à 12.1.7-h15",
+      "product": {
+        "name": "PAN-OS",
+        "vendor": {
+          "name": "Palo Alto Networks",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "PAN-OS versions 11.1.10-hx antérieures à 11.1.10-h38",
+      "product": {
+        "name": "PAN-OS",
+        "vendor": {
+          "name": "Palo Alto Networks",
+          "scada": false
+        }
+      }
+    }
+  ],
+  "affected_systems_content": "",
+  "content": "## Solutions\n\nSe référer au bulletin de sécurité de l'éditeur pour l'obtention des correctifs (cf. section Documentation).",
+  "cves": [
+    {
+      "name": "CVE-2026-46300",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-46300"
+    }
+  ],
+  "links": [],
+  "reference": "CERTFR-2026-AVI-1621",
+  "revisions": [
+    {
+      "description": "Version initiale",
+      "revision_date": "2026-11-25T00:00:00.000000"
+    }
+  ],
+  "risks": [
+    {
+      "description": "Élévation de privilèges"
+    }
+  ],
+  "summary": "Une vulnérabilité a été découverte dans Palo Alto Networks PAN-OS. Elle permet à un attaquant de provoquer une élévation de privilèges.\n\nPalo Alto Networks indique que la vulnérabilité CVE-2026-43600 est activement exploitée.",
+  "title": "Vulnérabilité dans Palo Alto Networks PAN-OS",
+  "vendor_advisories": [
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité Palo Alto Networks PAN-SA-2026-0015",
+      "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0015"
+    }
+  ]
+}
