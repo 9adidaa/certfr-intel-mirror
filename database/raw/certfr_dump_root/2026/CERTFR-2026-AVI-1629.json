@@ -1,0 +1,111 @@
+{
+  "$ref": "https://www.cert.ssi.gouv.fr/openapi.json",
+  "affected_systems": [
+    {
+      "description": "Veeam Infrastructure Appliance versions 13.1 sans le dernier correctif de sécurité",
+      "product": {
+        "name": "Veeam Infrastructure Appliance",
+        "vendor": {
+          "name": "Veeam",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "Veeam Backup for Salesforce versions 3.2.1 sans le dernier correctif de sécurité",
+      "product": {
+        "name": "Veeam Backup",
+        "vendor": {
+          "name": "Veeam",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "Veeam Plug-In for AWS sans les derniers correctifs de sécurité",
+      "product": {
+        "name": "Veeam Plug-In",
+        "vendor": {
+          "name": "Veeam",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "Veeam Plug-In for Google Cloud sans les derniers correctifs de sécurité",
+      "product": {
+        "name": "Veeam Plug-In",
+        "vendor": {
+          "name": "Veeam",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "Veeam Software Appliance versions 13.1 sans le derniers correctif de sécurité",
+      "product": {
+        "name": "Veeam Software Appliance",
+        "vendor": {
+          "name": "Veeam",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "Veeam Plug-In for Microsoft Azure appliances sans les derniers correctifs de sécurité",
+      "product": {
+        "name": "Veeam Plug-In",
+        "vendor": {
+          "name": "Veeam",
+          "scada": false
+        }
+      }
+    }
+  ],
+  "affected_systems_content": "",
+  "content": "## Solutions\n\nSe référer au bulletin de sécurité de l'éditeur pour l'obtention des correctifs (cf. section Documentation).",
+  "cves": [
+    {
+      "name": "CVE-2026-123634",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-123634"
+    },
+    {
+      "name": "CVE-2026-123007",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-123007"
+    },
+    {
+      "name": "CVE-2026-113425",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-113425"
+    },
+    {
+      "name": "CVE-2026-121810",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-121810"
+    },
+    {
+      "name": "CVE-2026-123633",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-123633"
+    }
+  ],
+  "links": [],
+  "reference": "CERTFR-2026-AVI-1629",
+  "revisions": [
+    {
+      "description": "Version initiale",
+      "revision_date": "2026-11-26T00:00:00.000000"
+    }
+  ],
+  "risks": [
+    {
+      "description": "Exécution de code arbitraire à distance"
+    }
+  ],
+  "summary": "De multiples vulnérabilités ont été découvertes dans les produits Veeam. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.\n\nL'éditeur fournit également une mesure de contournement provisoire.",
+  "title": "Multiples vulnérabilités dans les produits Veeam",
+  "vendor_advisories": [
+    {
+      "published_at": "2026-11-20",
+      "title": "Bulletin de sécurité Veeam kb4976",
+      "url": "https://www.veeam.com/kb4976"
+    }
+  ]
+}

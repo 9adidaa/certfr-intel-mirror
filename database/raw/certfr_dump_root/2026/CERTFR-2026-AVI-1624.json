@@ -1,0 +1,183 @@
+{
+  "$ref": "https://www.cert.ssi.gouv.fr/openapi.json",
+  "affected_systems": [
+    {
+      "description": "GitLab Community Edition (CE) et Enterprise Edition (EE) versions 19.3.x antérieures à 19.3.10",
+      "product": {
+        "name": "GitLab Community Edition (CE) et Gitlab Enterprise Edition (EE)",
+        "vendor": {
+          "name": "GitLab",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "GitLab Community Edition (CE) et Enterprise Edition (EE) versions 19.2.x antérieures à 19.2.11",
+      "product": {
+        "name": "GitLab Community Edition (CE) et Gitlab Enterprise Edition (EE)",
+        "vendor": {
+          "name": "GitLab",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "GitLab Community Edition (CE) et Enterprise Edition (EE) versions 19.0.x antérieures à 19.0.12",
+      "product": {
+        "name": "GitLab Community Edition (CE) et Gitlab Enterprise Edition (EE)",
+        "vendor": {
+          "name": "GitLab",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "GitLab Community Edition (CE) et Enterprise Edition (EE) versions 19.4.x antérieures à 19.4.11",
+      "product": {
+        "name": "GitLab Community Edition (CE) et Gitlab Enterprise Edition (EE)",
+        "vendor": {
+          "name": "GitLab",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "GitLab Community Edition (CE) et Enterprise Edition (EE) versions 19.1.x antérieures à 19.1.11",
+      "product": {
+        "name": "GitLab Community Edition (CE) et Gitlab Enterprise Edition (EE)",
+        "vendor": {
+          "name": "GitLab",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "GitLab Community Edition (CE) et Enterprise Edition (EE) versions antérieures à 18.11.15",
+      "product": {
+        "name": "GitLab Community Edition (CE) et Gitlab Enterprise Edition (EE)",
+        "vendor": {
+          "name": "GitLab",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "GitLab Community Edition (CE) et Enterprise Edition (EE) versions 19.6.x antérieures à 19.6.2",
+      "product": {
+        "name": "GitLab Community Edition (CE) et Gitlab Enterprise Edition (EE)",
+        "vendor": {
+          "name": "GitLab",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "GitLab Community Edition (CE) et Enterprise Edition (EE) versions 19.5.x antérieures à 19.5.9",
+      "product": {
+        "name": "GitLab Community Edition (CE) et Gitlab Enterprise Edition (EE)",
+        "vendor": {
+          "name": "GitLab",
+          "scada": false
+        }
+      }
+    }
+  ],
+  "affected_systems_content": "",
+  "content": "## Solutions\n\nSe référer au bulletin de sécurité de l'éditeur pour l'obtention des correctifs (cf. section Documentation).",
+  "cves": [
+    {
+      "name": "CVE-2026-135636",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-135636"
+    },
+    {
+      "name": "CVE-2026-135221",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-135221"
+    },
+    {
+      "name": "CVE-2026-129975",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-129975"
+    },
+    {
+      "name": "CVE-2026-105437",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-105437"
+    },
+    {
+      "name": "CVE-2026-81336",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-81336"
+    },
+    {
+      "name": "CVE-2026-132794",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-132794"
+    },
+    {
+      "name": "CVE-2026-129982",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-129982"
+    },
+    {
+      "name": "CVE-2026-17194",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-17194"
+    },
+    {
+      "name": "CVE-2026-16744",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-16744"
+    },
+    {
+      "name": "CVE-2026-132822",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-132822"
+    },
+    {
+      "name": "CVE-2026-119452",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-119452"
+    },
+    {
+      "name": "CVE-2026-131867",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-131867"
+    },
+    {
+      "name": "CVE-2026-132102",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-132102"
+    },
+    {
+      "name": "CVE-2026-107633",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-107633"
+    },
+    {
+      "name": "CVE-2026-132156",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-132156"
+    }
+  ],
+  "links": [],
+  "reference": "CERTFR-2026-AVI-1624",
+  "revisions": [
+    {
+      "description": "Version initiale",
+      "revision_date": "2026-11-26T00:00:00.000000"
+    }
+  ],
+  "risks": [
+    {
+      "description": "Déni de service à distance"
+    },
+    {
+      "description": "Exécution de code arbitraire à distance"
+    },
+    {
+      "description": "Falsification de requêtes côté serveur (SSRF)"
+    },
+    {
+      "description": "Contournement de la politique de sécurité"
+    },
+    {
+      "description": "Atteinte à la confidentialité des données"
+    }
+  ],
+  "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+  "title": "Multiples vulnérabilités dans GitLab",
+  "vendor_advisories": [
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité GitLab",
+      "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-6-2-released/"
+    }
+  ]
+}
