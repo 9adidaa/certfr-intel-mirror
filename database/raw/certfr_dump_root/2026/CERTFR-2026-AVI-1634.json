@@ -1,0 +1,204 @@
+{
+  "$ref": "https://www.cert.ssi.gouv.fr/openapi.json",
+  "affected_systems": [
+    {
+      "description": "Serv-U versions antérieure à 2026.4",
+      "product": {
+        "name": "Serv-U",
+        "vendor": {
+          "name": "SolarWinds",
+          "scada": false
+        }
+      }
+    }
+  ],
+  "affected_systems_content": "",
+  "content": "## Solutions\n\nSe référer au bulletin de sécurité de l'éditeur pour l'obtention des correctifs (cf. section Documentation).",
+  "cves": [
+    {
+      "name": "CVE-2026-82320",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-82320"
+    },
+    {
+      "name": "CVE-2026-28331",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-28331"
+    },
+    {
+      "name": "CVE-2026-123166",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-123166"
+    },
+    {
+      "name": "CVE-2026-123168",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-123168"
+    },
+    {
+      "name": "CVE-2026-82321",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-82321"
+    },
+    {
+      "name": "CVE-2026-82314",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-82314"
+    },
+    {
+      "name": "CVE-2026-123171",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-123171"
+    },
+    {
+      "name": "CVE-2026-123172",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-123172"
+    },
+    {
+      "name": "CVE-2026-82322",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-82322"
+    },
+    {
+      "name": "CVE-2026-123169",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-123169"
+    },
+    {
+      "name": "CVE-2026-82313",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-82313"
+    },
+    {
+      "name": "CVE-2026-123173",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-123173"
+    },
+    {
+      "name": "CVE-2026-123170",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-123170"
+    },
+    {
+      "name": "CVE-2026-123167",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-123167"
+    },
+    {
+      "name": "CVE-2026-28308",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-28308"
+    },
+    {
+      "name": "CVE-2026-123165",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-123165"
+    },
+    {
+      "name": "CVE-2026-82319",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-82319"
+    },
+    {
+      "name": "CVE-2026-111497",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-111497"
+    },
+    {
+      "name": "CVE-2026-82315",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-82315"
+    }
+  ],
+  "links": [],
+  "reference": "CERTFR-2026-AVI-1634",
+  "revisions": [
+    {
+      "description": "Version initiale",
+      "revision_date": "2026-11-27T00:00:00.000000"
+    }
+  ],
+  "risks": [
+    {
+      "description": "Déni de service à distance"
+    },
+    {
+      "description": "Exécution de code arbitraire à distance"
+    },
+    {
+      "description": "Contournement de la politique de sécurité"
+    },
+    {
+      "description": "Atteinte à la confidentialité des données"
+    },
+    {
+      "description": "Élévation de privilèges"
+    }
+  ],
+  "summary": "De multiples vulnérabilités ont été découvertes dans SolarWinds Serv-U. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+  "title": "Multiples vulnérabilités dans SolarWinds Serv-U",
+  "vendor_advisories": [
+    {
+      "published_at": "2026-11-24",
+      "title": "Bulletin de sécurité SolarWinds cve-2026-123170",
+      "url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-123170"
+    },
+    {
+      "published_at": "2026-11-24",
+      "title": "Bulletin de sécurité SolarWinds cve-2026-123169",
+      "url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-123169"
+    },
+    {
+      "published_at": "2026-11-24",
+      "title": "Bulletin de sécurité SolarWinds cve-2026-82322",
+      "url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-82322"
+    },
+    {
+      "published_at": "2026-11-24",
+      "title": "Bulletin de sécurité SolarWinds cve-2026-82320",
+      "url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-82320"
+    },
+    {
+      "published_at": "2026-11-24",
+      "title": "Bulletin de sécurité SolarWinds cve-2026-123172",
+      "url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-123172"
+    },
+    {
+      "published_at": "2026-11-24",
+      "title": "Bulletin de sécurité SolarWinds cve-2026-123166",
+      "url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-123166"
+    },
+    {
+      "published_at": "2026-11-24",
+      "title": "Bulletin de sécurité SolarWinds cve-2026-123168",
+      "url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-123168"
+    },
+    {
+      "published_at": "2026-11-24",
+      "title": "Bulletin de sécurité SolarWinds cve-2026-82315",
+      "url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-82315"
+    },
+    {
+      "published_at": "2026-11-24",
+      "title": "Bulletin de sécurité SolarWinds cve-2026-123165",
+      "url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-123165"
+    },
+    {
+      "published_at": "2026-11-24",
+      "title": "Bulletin de sécurité SolarWinds cve-2026-123167",
+      "url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-123167"
+    },
+    {
+      "published_at": "2026-11-24",
+      "title": "Bulletin de sécurité SolarWinds cve-2026-82313",
+      "url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-82313"
+    },
+    {
+      "published_at": "2026-11-24",
+      "title": "Bulletin de sécurité SolarWinds cve-2026-82321",
+      "url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-82321"
+    },
+    {
+      "published_at": "2026-11-24",
+      "title": "Bulletin de sécurité SolarWinds cve-2026-82314",
+      "url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-82314"
+    },
+    {
+      "published_at": "2026-11-24",
+      "title": "Bulletin de sécurité SolarWinds cve-2026-82319",
+      "url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-82319"
+    },
+    {
+      "published_at": "2026-11-24",
+      "title": "Bulletin de sécurité SolarWinds cve-2026-123173",
+      "url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-123173"
+    },
+    {
+      "published_at": "2026-11-24",
+      "title": "Bulletin de sécurité SolarWinds cve-2026-123171",
+      "url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-123171"
+    }
+  ]
+}

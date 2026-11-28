@@ -1,0 +1,99 @@
+{
+  "$ref": "https://www.cert.ssi.gouv.fr/openapi.json",
+  "affected_systems": [
+    {
+      "description": "DSM Enterprise avec PHP versions 8.2.x antérieures à 8.2.36-0135",
+      "product": {
+        "name": "DSM",
+        "vendor": {
+          "name": "Synology",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "DSM et DSM Enterprise avec PHP versions 8.3.x antérieures à 8.3.37-0052",
+      "product": {
+        "name": "DSM",
+        "vendor": {
+          "name": "Synology",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "DSM avec PHP versions 8.2.x antérieures à 8.2.36-0172",
+      "product": {
+        "name": "DSM",
+        "vendor": {
+          "name": "Synology",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "DSM et DSM Enterprise avec PHP versions 8.4.x antérieures à 8.4.28-0052",
+      "product": {
+        "name": "DSM",
+        "vendor": {
+          "name": "Synology",
+          "scada": false
+        }
+      }
+    }
+  ],
+  "affected_systems_content": "",
+  "content": "## Solutions\n\nSe référer au bulletin de sécurité de l'éditeur pour l'obtention des correctifs (cf. section Documentation).",
+  "cves": [
+    {
+      "name": "CVE-2026-129496",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-129496"
+    },
+    {
+      "name": "CVE-2026-129474",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-129474"
+    },
+    {
+      "name": "CVE-2026-115560",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-115560"
+    },
+    {
+      "name": "CVE-2026-129289",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-129289"
+    },
+    {
+      "name": "CVE-2026-129481",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-129481"
+    },
+    {
+      "name": "CVE-2026-126714",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-126714"
+    },
+    {
+      "name": "CVE-2026-129182",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-129182"
+    }
+  ],
+  "links": [],
+  "reference": "CERTFR-2026-AVI-1630",
+  "revisions": [
+    {
+      "description": "Version initiale",
+      "revision_date": "2026-11-27T00:00:00.000000"
+    }
+  ],
+  "risks": [
+    {
+      "description": "Exécution de code arbitraire à distance"
+    }
+  ],
+  "summary": "De multiples vulnérabilités ont été découvertes dans Synology DSM et DSM Enterprise. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+  "title": "Multiples vulnérabilités dans Synology DSM et DSM Enterprise",
+  "vendor_advisories": [
+    {
+      "published_at": "2026-11-24",
+      "title": "Bulletin de sécurité Synology Synology_SA_26_22",
+      "url": "https://www.synology.com/en-global/security/advisory/Synology_SA_26_22"
+    }
+  ]
+}

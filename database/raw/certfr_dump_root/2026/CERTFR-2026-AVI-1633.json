@@ -1,0 +1,363 @@
+{
+  "$ref": "https://www.cert.ssi.gouv.fr/openapi.json",
+  "affected_systems": [
+    {
+      "description": " Ruby Driver versions bson-5.x antérieure à bson-5.2.1 ",
+      "product": {
+        "name": "Ruby Driver",
+        "vendor": {
+          "name": "MongoDB",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "Ruby Driver versions antérieure à 2.26.2",
+      "product": {
+        "name": "Ruby Driver",
+        "vendor": {
+          "name": "MongoDB",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "PHP Driver versions 2.1.x antérieure à 2.1.15",
+      "product": {
+        "name": "PHP Driver",
+        "vendor": {
+          "name": "MongoDB",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "Python Driver versions antérieure à 4.20.2",
+      "product": {
+        "name": "Python Driver",
+        "vendor": {
+          "name": "MongoDB",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "CRust Driver versions antérieure à 3.10.2",
+      "product": {
+        "name": "Rust Driver",
+        "vendor": {
+          "name": "MongoDB",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "C Driver versions 2.x antérieure à 2.5.10",
+      "product": {
+        "name": "C Driver",
+        "vendor": {
+          "name": "MongoDB",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "Laravel MongoDB versions antérieure à 5.12.2 ",
+      "product": {
+        "name": "Laravel MongoDB",
+        "vendor": {
+          "name": "MongoDB",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "Mongoid versions antérieure à 9.1.3 ",
+      "product": {
+        "name": "Mongoid",
+        "vendor": {
+          "name": "MongoDB",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "PHP Driver versions antérieure à 1.21.15",
+      "product": {
+        "name": "PHP Driver",
+        "vendor": {
+          "name": "MongoDB",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "libmongocrypt versions antérieure à 1.21.2",
+      "product": {
+        "name": "libmongocrypt",
+        "vendor": {
+          "name": "MongoDB",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "PyMongo versions antérieure à 4.20.2",
+      "product": {
+        "name": "PyMongo",
+        "vendor": {
+          "name": "MongoDB",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "PHP Driver versions 2.5.x antérieure à 2.5.9",
+      "product": {
+        "name": "PHP Driver",
+        "vendor": {
+          "name": "MongoDB",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "C Driver versions antérieure à 1.30.17",
+      "product": {
+        "name": "C Driver",
+        "vendor": {
+          "name": "MongoDB",
+          "scada": false
+        }
+      }
+    }
+  ],
+  "affected_systems_content": "",
+  "content": "## Solutions\n\nSe référer au bulletin de sécurité de l'éditeur pour l'obtention des correctifs (cf. section Documentation).",
+  "cves": [
+    {
+      "name": "CVE-2026-135139",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-135139"
+    },
+    {
+      "name": "CVE-2026-135135",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-135135"
+    },
+    {
+      "name": "CVE-2026-135897",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-135897"
+    },
+    {
+      "name": "CVE-2026-135138",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-135138"
+    },
+    {
+      "name": "CVE-2026-135141",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-135141"
+    },
+    {
+      "name": "CVE-2026-135223",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-135223"
+    },
+    {
+      "name": "CVE-2026-135134",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-135134"
+    },
+    {
+      "name": "CVE-2026-135145",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-135145"
+    },
+    {
+      "name": "CVE-2026-135222",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-135222"
+    },
+    {
+      "name": "CVE-2026-135144",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-135144"
+    },
+    {
+      "name": "CVE-2026-135226",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-135226"
+    },
+    {
+      "name": "CVE-2026-135140",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-135140"
+    },
+    {
+      "name": "CVE-2026-135224",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-135224"
+    },
+    {
+      "name": "CVE-2026-135227",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-135227"
+    },
+    {
+      "name": "CVE-2026-135146",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-135146"
+    },
+    {
+      "name": "CVE-2026-135228",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-135228"
+    },
+    {
+      "name": "CVE-2026-135225",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-135225"
+    },
+    {
+      "name": "CVE-2026-135142",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-135142"
+    },
+    {
+      "name": "CVE-2026-135898",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-135898"
+    },
+    {
+      "name": "CVE-2026-135147",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-135147"
+    },
+    {
+      "name": "CVE-2026-135133",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-135133"
+    }
+  ],
+  "links": [],
+  "reference": "CERTFR-2026-AVI-1633",
+  "revisions": [
+    {
+      "description": "Version initiale",
+      "revision_date": "2026-11-27T00:00:00.000000"
+    }
+  ],
+  "risks": [
+    {
+      "description": "Injection de requêtes illégitimes par rebond (CSRF)"
+    },
+    {
+      "description": "Atteinte à l'intégrité des données"
+    },
+    {
+      "description": "Exécution de code arbitraire"
+    },
+    {
+      "description": "Déni de service"
+    },
+    {
+      "description": "Contournement de la politique de sécurité"
+    },
+    {
+      "description": "Atteinte à la confidentialité des données"
+    },
+    {
+      "description": "Élévation de privilèges"
+    }
+  ],
+  "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité des données.",
+  "title": "Multiples vulnérabilités dans MongoDB",
+  "vendor_advisories": [
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité MongoDB PHPLARA-324",
+      "url": "https://jira.mongodb.org/browse/PHPLARA-324"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité MongoDB PHPC-2746",
+      "url": "https://jira.mongodb.org/browse/PHPC-2746"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité MongoDB MONGOID-6035",
+      "url": "https://jira.mongodb.org/browse/MONGOID-6035"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité MongoDB MONGOID-6030",
+      "url": "https://jira.mongodb.org/browse/MONGOID-6030"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité MongoDB PHPLARA-310",
+      "url": "https://jira.mongodb.org/browse/PHPLARA-310"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité MongoDB PHPLARA-321",
+      "url": "https://jira.mongodb.org/browse/PHPLARA-321"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité MongoDB MONGOID-6025",
+      "url": "https://jira.mongodb.org/browse/MONGOID-6025"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité MongoDB MONGOCRYPT-990",
+      "url": "https://jira.mongodb.org/browse/MONGOCRYPT-990"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité MongoDB RUBY-3939",
+      "url": "https://jira.mongodb.org/browse/RUBY-3939"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité MongoDB PHPLARA-308",
+      "url": "https://jira.mongodb.org/browse/PHPLARA-308"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité MongoDB MONGOID-6050",
+      "url": "https://jira.mongodb.org/browse/MONGOID-6050"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité MongoDB RUST-2487",
+      "url": "https://jira.mongodb.org/browse/RUST-2487"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité MongoDB PYTHON-6189",
+      "url": "https://jira.mongodb.org/browse/PYTHON-6189"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité MongoDB CDRIVER-6559",
+      "url": "https://jira.mongodb.org/browse/CDRIVER-6559"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité MongoDB MONGOID-5969",
+      "url": "https://jira.mongodb.org/browse/MONGOID-5969"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité MongoDB MONGOID-6026",
+      "url": "https://jira.mongodb.org/browse/MONGOID-6026"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité MongoDB RUBY-3936",
+      "url": "https://jira.mongodb.org/browse/RUBY-3936"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité MongoDB PYTHON-6256",
+      "url": "https://jira.mongodb.org/browse/PYTHON-6256"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité MongoDB CDRIVER-6511",
+      "url": "https://jira.mongodb.org/browse/CDRIVER-6511"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité MongoDB PHPLARA-320",
+      "url": "https://jira.mongodb.org/browse/PHPLARA-320"
+    },
+    {
+      "published_at": "2026-11-25",
+      "title": "Bulletin de sécurité MongoDB CDRIVER-6500",
+      "url": "https://jira.mongodb.org/browse/CDRIVER-6500"
+    }
+  ]
+}

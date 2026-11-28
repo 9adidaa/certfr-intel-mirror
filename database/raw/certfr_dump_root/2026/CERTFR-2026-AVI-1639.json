@@ -1,0 +1,1009 @@
+{
+  "$ref": "https://www.cert.ssi.gouv.fr/openapi.json",
+  "affected_systems": [
+    {
+      "description": "Debian 12 bookworm versions 6.12.x antérieures à  6.12.117-1~deb12u1",
+      "product": {
+        "name": "Debian",
+        "vendor": {
+          "name": "Debian",
+          "scada": false
+        }
+      }
+    },
+    {
+      "description": "Debian 12 bookworm versions antérieures à 6.1.192-3",
+      "product": {
+        "name": "Debian",
+        "vendor": {
+          "name": "Debian",
+          "scada": false
+        }
+      }
+    }
+  ],
+  "affected_systems_content": "",
+  "content": "## Solutions\n\nSe référer au bulletin de sécurité de l'éditeur pour l'obtention des correctifs (cf. section Documentation).",
+  "cves": [
+    {
+      "name": "CVE-2026-99299",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99299"
+    },
+    {
+      "name": "CVE-2026-99556",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99556"
+    },
+    {
+      "name": "CVE-2026-99297",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99297"
+    },
+    {
+      "name": "CVE-2026-99422",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99422"
+    },
+    {
+      "name": "CVE-2026-99454",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99454"
+    },
+    {
+      "name": "CVE-2026-99436",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99436"
+    },
+    {
+      "name": "CVE-2026-98176",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-98176"
+    },
+    {
+      "name": "CVE-2026-99561",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99561"
+    },
+    {
+      "name": "CVE-2026-99494",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99494"
+    },
+    {
+      "name": "CVE-2026-99409",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99409"
+    },
+    {
+      "name": "CVE-2026-99122",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99122"
+    },
+    {
+      "name": "CVE-2026-99437",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99437"
+    },
+    {
+      "name": "CVE-2026-100080",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-100080"
+    },
+    {
+      "name": "CVE-2026-99086",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99086"
+    },
+    {
+      "name": "CVE-2026-99354",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99354"
+    },
+    {
+      "name": "CVE-2026-99514",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99514"
+    },
+    {
+      "name": "CVE-2026-99544",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99544"
+    },
+    {
+      "name": "CVE-2026-99414",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99414"
+    },
+    {
+      "name": "CVE-2026-99464",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99464"
+    },
+    {
+      "name": "CVE-2026-99431",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99431"
+    },
+    {
+      "name": "CVE-2026-99430",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99430"
+    },
+    {
+      "name": "CVE-2026-98715",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-98715"
+    },
+    {
+      "name": "CVE-2026-99274",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99274"
+    },
+    {
+      "name": "CVE-2026-99532",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99532"
+    },
+    {
+      "name": "CVE-2026-99461",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99461"
+    },
+    {
+      "name": "CVE-2026-99368",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99368"
+    },
+    {
+      "name": "CVE-2026-99346",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99346"
+    },
+    {
+      "name": "CVE-2026-99804",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99804"
+    },
+    {
+      "name": "CVE-2026-99474",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99474"
+    },
+    {
+      "name": "CVE-2026-99492",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99492"
+    },
+    {
+      "name": "CVE-2026-99393",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99393"
+    },
+    {
+      "name": "CVE-2026-99405",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99405"
+    },
+    {
+      "name": "CVE-2026-98978",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-98978"
+    },
+    {
+      "name": "CVE-2026-99449",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99449"
+    },
+    {
+      "name": "CVE-2026-99295",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99295"
+    },
+    {
+      "name": "CVE-2026-99287",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99287"
+    },
+    {
+      "name": "CVE-2026-99400",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99400"
+    },
+    {
+      "name": "CVE-2026-99418",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99418"
+    },
+    {
+      "name": "CVE-2026-99448",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99448"
+    },
+    {
+      "name": "CVE-2026-99385",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99385"
+    },
+    {
+      "name": "CVE-2026-92499",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-92499"
+    },
+    {
+      "name": "CVE-2026-99548",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99548"
+    },
+    {
+      "name": "CVE-2026-99456",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99456"
+    },
+    {
+      "name": "CVE-2026-99433",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99433"
+    },
+    {
+      "name": "CVE-2026-98674",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-98674"
+    },
+    {
+      "name": "CVE-2026-99465",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99465"
+    },
+    {
+      "name": "CVE-2026-99528",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99528"
+    },
+    {
+      "name": "CVE-2026-99545",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99545"
+    },
+    {
+      "name": "CVE-2026-99453",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99453"
+    },
+    {
+      "name": "CVE-2026-99442",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99442"
+    },
+    {
+      "name": "CVE-2026-99427",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99427"
+    },
+    {
+      "name": "CVE-2026-99435",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99435"
+    },
+    {
+      "name": "CVE-2026-99460",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99460"
+    },
+    {
+      "name": "CVE-2026-99395",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99395"
+    },
+    {
+      "name": "CVE-2026-99352",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99352"
+    },
+    {
+      "name": "CVE-2026-99429",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99429"
+    },
+    {
+      "name": "CVE-2026-98853",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-98853"
+    },
+    {
+      "name": "CVE-2026-99399",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99399"
+    },
+    {
+      "name": "CVE-2026-98683",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-98683"
+    },
+    {
+      "name": "CVE-2026-99425",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99425"
+    },
+    {
+      "name": "CVE-2026-99550",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99550"
+    },
+    {
+      "name": "CVE-2026-99172",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99172"
+    },
+    {
+      "name": "CVE-2026-99332",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99332"
+    },
+    {
+      "name": "CVE-2026-99341",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99341"
+    },
+    {
+      "name": "CVE-2026-99290",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99290"
+    },
+    {
+      "name": "CVE-2026-99428",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99428"
+    },
+    {
+      "name": "CVE-2026-99434",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99434"
+    },
+    {
+      "name": "CVE-2026-98180",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-98180"
+    },
+    {
+      "name": "CVE-2026-99481",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99481"
+    },
+    {
+      "name": "CVE-2026-99799",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99799"
+    },
+    {
+      "name": "CVE-2026-99356",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99356"
+    },
+    {
+      "name": "CVE-2026-99323",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99323"
+    },
+    {
+      "name": "CVE-2026-99483",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99483"
+    },
+    {
+      "name": "CVE-2026-98989",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-98989"
+    },
+    {
+      "name": "CVE-2026-98786",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-98786"
+    },
+    {
+      "name": "CVE-2026-98177",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-98177"
+    },
+    {
+      "name": "CVE-2026-99351",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99351"
+    },
+    {
+      "name": "CVE-2026-99343",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99343"
+    },
+    {
+      "name": "CVE-2026-98685",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-98685"
+    },
+    {
+      "name": "CVE-2026-99540",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99540"
+    },
+    {
+      "name": "CVE-2026-99446",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99446"
+    },
+    {
+      "name": "CVE-2026-99505",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99505"
+    },
+    {
+      "name": "CVE-2026-99417",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99417"
+    },
+    {
+      "name": "CVE-2026-98714",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-98714"
+    },
+    {
+      "name": "CVE-2026-99455",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99455"
+    },
+    {
+      "name": "CVE-2026-99421",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99421"
+    },
+    {
+      "name": "CVE-2026-99389",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99389"
+    },
+    {
+      "name": "CVE-2026-99307",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99307"
+    },
+    {
+      "name": "CVE-2026-99410",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99410"
+    },
+    {
+      "name": "CVE-2026-99469",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99469"
+    },
+    {
+      "name": "CVE-2026-99371",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99371"
+    },
+    {
+      "name": "CVE-2026-98682",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-98682"
+    },
+    {
+      "name": "CVE-2026-99558",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99558"
+    },
+    {
+      "name": "CVE-2026-99109",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99109"
+    },
+    {
+      "name": "CVE-2026-98920",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-98920"
+    },
+    {
+      "name": "CVE-2026-99482",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99482"
+    },
+    {
+      "name": "CVE-2026-98863",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-98863"
+    },
+    {
+      "name": "CVE-2026-99378",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99378"
+    },
+    {
+      "name": "CVE-2026-98684",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-98684"
+    },
+    {
+      "name": "CVE-2026-99475",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99475"
+    },
+    {
+      "name": "CVE-2026-99372",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99372"
+    },
+    {
+      "name": "CVE-2026-99451",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99451"
+    },
+    {
+      "name": "CVE-2026-99513",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99513"
+    },
+    {
+      "name": "CVE-2026-99333",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99333"
+    },
+    {
+      "name": "CVE-2026-99468",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99468"
+    },
+    {
+      "name": "CVE-2026-99534",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99534"
+    },
+    {
+      "name": "CVE-2026-99546",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99546"
+    },
+    {
+      "name": "CVE-2026-99076",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99076"
+    },
+    {
+      "name": "CVE-2026-99390",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99390"
+    },
+    {
+      "name": "CVE-2026-99146",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99146"
+    },
+    {
+      "name": "CVE-2026-99270",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99270"
+    },
+    {
+      "name": "CVE-2026-99413",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99413"
+    },
+    {
+      "name": "CVE-2026-99512",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99512"
+    },
+    {
+      "name": "CVE-2026-99271",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99271"
+    },
+    {
+      "name": "CVE-2026-99473",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99473"
+    },
+    {
+      "name": "CVE-2026-99324",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99324"
+    },
+    {
+      "name": "CVE-2026-99281",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99281"
+    },
+    {
+      "name": "CVE-2026-99503",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99503"
+    },
+    {
+      "name": "CVE-2026-99397",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99397"
+    },
+    {
+      "name": "CVE-2026-99452",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99452"
+    },
+    {
+      "name": "CVE-2026-99288",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99288"
+    },
+    {
+      "name": "CVE-2026-99292",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99292"
+    },
+    {
+      "name": "CVE-2026-99507",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99507"
+    },
+    {
+      "name": "CVE-2026-99026",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99026"
+    },
+    {
+      "name": "CVE-2026-99396",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99396"
+    },
+    {
+      "name": "CVE-2026-99283",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99283"
+    },
+    {
+      "name": "CVE-2026-99538",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99538"
+    },
+    {
+      "name": "CVE-2026-99416",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99416"
+    },
+    {
+      "name": "CVE-2026-99488",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99488"
+    },
+    {
+      "name": "CVE-2026-98466",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-98466"
+    },
+    {
+      "name": "CVE-2026-99305",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99305"
+    },
+    {
+      "name": "CVE-2026-99357",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99357"
+    },
+    {
+      "name": "CVE-2026-99477",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99477"
+    },
+    {
+      "name": "CVE-2026-99491",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99491"
+    },
+    {
+      "name": "CVE-2026-99282",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99282"
+    },
+    {
+      "name": "CVE-2026-99334",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99334"
+    },
+    {
+      "name": "CVE-2026-99509",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99509"
+    },
+    {
+      "name": "CVE-2026-99490",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99490"
+    },
+    {
+      "name": "CVE-2026-99552",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99552"
+    },
+    {
+      "name": "CVE-2026-99360",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99360"
+    },
+    {
+      "name": "CVE-2026-99408",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99408"
+    },
+    {
+      "name": "CVE-2026-99510",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99510"
+    },
+    {
+      "name": "CVE-2026-99463",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99463"
+    },
+    {
+      "name": "CVE-2026-99467",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99467"
+    },
+    {
+      "name": "CVE-2026-99415",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99415"
+    },
+    {
+      "name": "CVE-2026-99398",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99398"
+    },
+    {
+      "name": "CVE-2026-99303",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99303"
+    },
+    {
+      "name": "CVE-2026-99441",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99441"
+    },
+    {
+      "name": "CVE-2026-99525",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99525"
+    },
+    {
+      "name": "CVE-2026-99355",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99355"
+    },
+    {
+      "name": "CVE-2026-99300",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99300"
+    },
+    {
+      "name": "CVE-2026-99419",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99419"
+    },
+    {
+      "name": "CVE-2026-99366",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99366"
+    },
+    {
+      "name": "CVE-2026-99555",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99555"
+    },
+    {
+      "name": "CVE-2026-99339",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99339"
+    },
+    {
+      "name": "CVE-2026-99543",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99543"
+    },
+    {
+      "name": "CVE-2026-98449",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-98449"
+    },
+    {
+      "name": "CVE-2026-98228",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-98228"
+    },
+    {
+      "name": "CVE-2026-99328",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99328"
+    },
+    {
+      "name": "CVE-2026-99506",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99506"
+    },
+    {
+      "name": "CVE-2026-99554",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99554"
+    },
+    {
+      "name": "CVE-2026-99438",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99438"
+    },
+    {
+      "name": "CVE-2026-98996",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-98996"
+    },
+    {
+      "name": "CVE-2026-99361",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99361"
+    },
+    {
+      "name": "CVE-2026-99364",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99364"
+    },
+    {
+      "name": "CVE-2026-99547",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99547"
+    },
+    {
+      "name": "CVE-2026-99301",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99301"
+    },
+    {
+      "name": "CVE-2026-99359",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99359"
+    },
+    {
+      "name": "CVE-2026-99471",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99471"
+    },
+    {
+      "name": "CVE-2026-98408",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-98408"
+    },
+    {
+      "name": "CVE-2026-99344",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99344"
+    },
+    {
+      "name": "CVE-2026-99302",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99302"
+    },
+    {
+      "name": "CVE-2026-99515",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99515"
+    },
+    {
+      "name": "CVE-2026-99541",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99541"
+    },
+    {
+      "name": "CVE-2026-99311",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99311"
+    },
+    {
+      "name": "CVE-2026-99367",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99367"
+    },
+    {
+      "name": "CVE-2026-99480",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99480"
+    },
+    {
+      "name": "CVE-2026-99508",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99508"
+    },
+    {
+      "name": "CVE-2026-99327",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99327"
+    },
+    {
+      "name": "CVE-2026-99497",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99497"
+    },
+    {
+      "name": "CVE-2026-99444",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99444"
+    },
+    {
+      "name": "CVE-2026-99087",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99087"
+    },
+    {
+      "name": "CVE-2026-99403",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99403"
+    },
+    {
+      "name": "CVE-2026-99489",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99489"
+    },
+    {
+      "name": "CVE-2026-99549",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99549"
+    },
+    {
+      "name": "CVE-2026-99298",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99298"
+    },
+    {
+      "name": "CVE-2026-99557",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99557"
+    },
+    {
+      "name": "CVE-2026-99386",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99386"
+    },
+    {
+      "name": "CVE-2026-99440",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99440"
+    },
+    {
+      "name": "CVE-2026-99296",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99296"
+    },
+    {
+      "name": "CVE-2026-99273",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99273"
+    },
+    {
+      "name": "CVE-2026-99535",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99535"
+    },
+    {
+      "name": "CVE-2026-99526",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99526"
+    },
+    {
+      "name": "CVE-2026-98439",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-98439"
+    },
+    {
+      "name": "CVE-2026-99420",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99420"
+    },
+    {
+      "name": "CVE-2026-99551",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99551"
+    },
+    {
+      "name": "CVE-2026-99432",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99432"
+    },
+    {
+      "name": "CVE-2026-99407",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99407"
+    },
+    {
+      "name": "CVE-2026-99531",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99531"
+    },
+    {
+      "name": "CVE-2026-99309",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99309"
+    },
+    {
+      "name": "CVE-2026-99423",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99423"
+    },
+    {
+      "name": "CVE-2026-99479",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99479"
+    },
+    {
+      "name": "CVE-2026-99353",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99353"
+    },
+    {
+      "name": "CVE-2026-99565",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99565"
+    },
+    {
+      "name": "CVE-2026-99537",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99537"
+    },
+    {
+      "name": "CVE-2026-99466",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99466"
+    },
+    {
+      "name": "CVE-2026-99340",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99340"
+    },
+    {
+      "name": "CVE-2026-99388",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99388"
+    },
+    {
+      "name": "CVE-2026-99342",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99342"
+    },
+    {
+      "name": "CVE-2026-99470",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99470"
+    },
+    {
+      "name": "CVE-2026-99330",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99330"
+    },
+    {
+      "name": "CVE-2026-99331",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99331"
+    },
+    {
+      "name": "CVE-2026-99021",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99021"
+    },
+    {
+      "name": "CVE-2026-99439",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99439"
+    },
+    {
+      "name": "CVE-2026-99358",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99358"
+    },
+    {
+      "name": "CVE-2026-99404",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99404"
+    },
+    {
+      "name": "CVE-2026-99511",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99511"
+    },
+    {
+      "name": "CVE-2026-100081",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-100081"
+    },
+    {
+      "name": "CVE-2026-99286",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99286"
+    },
+    {
+      "name": "CVE-2026-99370",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99370"
+    },
+    {
+      "name": "CVE-2026-99424",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99424"
+    },
+    {
+      "name": "CVE-2026-99375",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99375"
+    },
+    {
+      "name": "CVE-2026-99539",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99539"
+    },
+    {
+      "name": "CVE-2026-99365",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99365"
+    },
+    {
+      "name": "CVE-2026-100082",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-100082"
+    },
+    {
+      "name": "CVE-2026-99542",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99542"
+    },
+    {
+      "name": "CVE-2026-99304",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99304"
+    },
+    {
+      "name": "CVE-2026-99406",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99406"
+    },
+    {
+      "name": "CVE-2026-99392",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99392"
+    },
+    {
+      "name": "CVE-2026-99306",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99306"
+    },
+    {
+      "name": "CVE-2026-99362",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99362"
+    },
+    {
+      "name": "CVE-2026-99521",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99521"
+    },
+    {
+      "name": "CVE-2026-99310",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99310"
+    },
+    {
+      "name": "CVE-2026-89866",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-89866"
+    },
+    {
+      "name": "CVE-2026-99516",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99516"
+    },
+    {
+      "name": "CVE-2026-99529",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99529"
+    }
+  ],
+  "links": [],
+  "reference": "CERTFR-2026-AVI-1639",
+  "revisions": [
+    {
+      "description": "Version initiale",
+      "revision_date": "2026-11-27T00:00:00.000000"
+    }
+  ],
+  "risks": [
+    {
+      "description": "Déni de service à distance"
+    },
+    {
+      "description": "Exécution de code arbitraire à distance"
+    },
+    {
+      "description": "Atteinte à l'intégrité des données"
+    },
+    {
+      "description": "Élévation de privilèges"
+    }
+  ],
+  "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+  "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS",
+  "vendor_advisories": [
+    {
+      "published_at": "2026-11-21",
+      "title": "Bulletin de sécurité Debian LTS msg00053",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/11/msg00053.html"
+    },
+    {
+      "published_at": "2026-11-27",
+      "title": "Bulletin de sécurité Debian LTS msg00069",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/11/msg00069.html"
+    }
+  ]
+}
